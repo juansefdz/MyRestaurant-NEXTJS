@@ -4,6 +4,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "MyRestaurant",
+  description: "The best restaurants in the world",
+  keywords: ["restaurant", "food", "eat", "dinner", "lunch"],
 };
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
